@@ -1,0 +1,52 @@
+
+
+
+// style.scss
+@import "./partials/normalize";
+@import "./partials/color";
+@import "./partials/fontStyling";
+@import "./partials/generalStyling";
+@import "./partials/header";
+@import "./partials/footer";
+@import "./partials/home";
+@import "./partials/thingsToDo";
+@import "./partials/memo";
+
+// break points numbers represent width in pixel
+@import "./partials/bp992";
+@import "./partials/bp768";
+@import "./partials/bp576";
+@import "./partials/bp480";
+@import "./partials/bp450";
+@import "./partials/bp320";
+
+
+
+//// my css order!! ////
+// Visibility
+
+// z-index
+
+// Position
+// Position related setting
+
+// Size
+
+// Display
+// Display related settings
+
+// Margin / padding
+// border
+
+// Background
+// Content related settings
+
+
+
+//// when possible ////
+// Set padding on parent element.
+// And always on largest container possible. (e.g. wrapper)
+// Margin for items stacked on top of one another is set on element above to push things down
+
+// Always order CSS from parent to child
+// Ordered Siblings top to bottom / left to right

@@ -1,0 +1,41 @@
+
+
+
+// _header.scss
+header .wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3% 0 3% 0;
+}
+
+.topNav{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 5% auto 0 auto;
+  a{
+    color:$myYellowDark;
+  }
+  // a:visited{
+  //   color:$myYellowDark;
+  // }
+  a:hover{
+    color: $myTealDark;
+  }
+  
+
+  text-transform: uppercase;
+}
+
+.motivational{
+  margin-top: 7%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  li{
+    margin-top: 3%;
+  }
+}

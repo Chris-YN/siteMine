@@ -1,0 +1,38 @@
+
+
+
+// _generalStyling.scss
+.wrapper{
+  width: 85%;
+  margin: 0 auto;
+
+  background-color: $myTealLight;
+}
+
+// this rule applies to any classes ending with Mainlist
+// do not end classes with MainList unless you want this rule to apply
+[class$=List] {
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+
+    li {
+      color: $myYellowDark;
+      margin-top: 30px;
+    }
+  }
+}
+
+[class*=Sub]{
+  ul{
+    padding-top: 70px;
+
+    li{
+      color: $myYellowLight;
+    }
+  }
+}
+
